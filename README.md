@@ -17,6 +17,7 @@ __Responsive example__
 
 ## Styling
 The following custom properties and mixins are available for styling:
+
 Custom property                           | Description                                         | Default       |
 ------------------------------------------|-----------------------------------------------------|---------------|
 --app-header-bg-color                     | background color for host                           | transaparent  |
