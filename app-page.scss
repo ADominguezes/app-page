@@ -80,6 +80,7 @@
       @apply(--app-header-responsive-panel-left);
     }
     .panel-right {
+      position: relative;
       border-left: 0;
       border-top: 1px solid var(--app-page-responsive-panel-right-b-t, #e5e5e5);
       width:100%;
