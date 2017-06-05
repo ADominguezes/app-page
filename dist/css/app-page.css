@@ -20,7 +20,7 @@
     color: var(--app-header-panel-left-color, #666);
     font-weight: lighter;
     padding: 1em;
-    width: 80%;
+    width: calc(100% - 200px);
     @apply (--app-header-panel-left); }
     :host .panel-left__title {
       font-weight: lighter;
@@ -59,7 +59,7 @@
     width: 100%;
     @apply (--app-header-hide-panel-right-panel-left); }
 
-@media (max-width: 770px) {
+@media (max-width: 950px) {
   :host([responsive]) {
     display: block;
     @apply (--app-header-responsive); }
