@@ -17,10 +17,9 @@ __Responsive example__
 
 ## Styling
 The following custom properties and mixins are available for styling:
-
 Custom property                           | Description                                         | Default       |
 ------------------------------------------|-----------------------------------------------------|---------------|
---app-header-bg-color                     | background color for host                           | transaparent  |
+--app-header-bg-color                     | background color for host                           | transparent   |
 --app-header                              | empty mixin for host                                | {}            |
 --app-header-panel-left-color             | color for panel-left                                | #666          |
 --app-header-panel-left                   | empty mixin for panel-left                          | {}            |
@@ -38,6 +37,7 @@ Custom property                           | Description                         
 --app-header-responsive                   | empty mixin for host([responsive])                  | {}            |
 --app-header-responsive-panel-left        | empty mixin for host([responsive]) panel-left       | {}            |
 --app-page-responsive-panel-right-b-t     | border top for host([hide-panel-right]) panel-right | #e5e5e5       |
+--app-page-panel-right-bg-color           | background for host([hide-panel-right]) panel-right | #fff          |
 --app-header-hide-panel-right-panel-left  | empty mixin for host([hide-panel-right]) panel-left | {}            |
 --app-header-responsive-panel-right       | empty mixin for host([responsive]) panel-right      | {}            |
 
