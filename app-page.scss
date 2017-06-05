@@ -22,6 +22,7 @@
     color: var(--app-header-panel-left-color, #666);
     font-weight: lighter;
     padding: 1em;
+    box-sizing: border-box;
     width: calc(100% - 200px);
     @apply(--app-header-panel-left);
     &__title {
@@ -71,7 +72,7 @@
   }
 }
 
-@media(max-width: 950px) {
+@media(max-width: 960px) {
   :host([responsive]) {
     display: block;
     @apply(--app-header-responsive);
